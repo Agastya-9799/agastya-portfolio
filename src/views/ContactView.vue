@@ -86,7 +86,7 @@
                       color="primary"
                       variant="flat"
                       prepend-icon="mdi-file-document-outline"
-                      href="/Agastya Resume.docx.pdf"
+                      href="/agastya-portfolio/Agastya Resume.docx.pdf"
                       target="_blank"
                     >
                       View Resume
@@ -96,7 +96,7 @@
                       variant="outlined"
                       class="ms-4"
                       prepend-icon="mdi-download"
-                      href="/Agastya Resume.docx.pdf"
+                      href="/agastya-portfolio/Agastya Resume.docx.pdf"
                       download
                     >
                       Download Resume

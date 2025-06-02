@@ -15,7 +15,7 @@
             class="text-h5 font-weight-bold pa-0"
             color="primary"
           >
-            <v-img src="/images/logo1.png" width="40" height="40" class="mr-2"></v-img>
+            <v-img src="/agastya-portfolio/images/logo1.png" width="40" height="40" class="mr-2"></v-img>
             <span class="name-title">Agastya Reddy</span>
           </v-btn>
         </router-link>
