@@ -35,7 +35,7 @@
                         prepend-icon="mdi-download"
                         class="hero-btn-primary"
                         elevation="4"
-                        href="/Agastya Resume.docx.pdf"
+                        href="../../public/Agastya Resume.docx.pdf"
                         download
                       >
                         Download Resume
@@ -83,7 +83,7 @@
                         <div class="profile-gradient"></div>
                         <v-avatar class="profile-avatar">
                           <v-img
-                            src="/images/2018.JPG"
+                            src="../../public/images/2018.JPG"
                             alt="Agastya Reddy"
                             class="profile-image"
                             cover
@@ -364,7 +364,7 @@ const featuredProjects = [
   {
     title: 'Comprehensive DevSecOps Pipeline',
     description: 'Robust DevSecOps pipeline integrating DAST, SAST, and SCA security testing approaches for complete application security coverage.',
-    image: '/images/wiki-dev-sec-ops-WC04-24-graphic.webp',
+    image: '../../public/images/wiki-dev-sec-ops-WC04-24-graphic.webp',
     category: 'DevSecOps',
     improvement: '95%',
     uptime: '99.9%',
@@ -373,7 +373,7 @@ const featuredProjects = [
   {
     title: 'Secure Content Streaming Platform',
     description: 'AWS-based content delivery platform with tiered access control using CloudFront signed URLs for premium content protection.',
-    image: '/images/benefits-securing-high-value-streaming-services-1.webp',
+    image: '../../public/images/benefits-securing-high-value-streaming-services-1.webp',
     category: 'Cloud',
     improvement: '100%',
     uptime: '99.5%',
@@ -382,7 +382,7 @@ const featuredProjects = [
   {
     title: 'Multi-VPC Infrastructure',
     description: 'Advanced and secure AWS multi-VPC architecture utilizing Terraform with VPC peering and enhanced security measures.',
-    image: '/images/What_is_a_Virtual_Private_Cloud_blog_cover_b10c66bd9c.png',
+    image: '../../public/images/What_is_a_Virtual_Private_Cloud_blog_cover_b10c66bd9c.png',
     category: 'Cloud',
     improvement: '90%',
     uptime: '99.8%',

@@ -298,7 +298,7 @@ const projects = [
     status: 'Completed',
     description: 'Robust DevSecOps pipeline integrating DAST, SAST, and SCA security testing approaches for complete application security coverage.',
     longDescription: 'Designed and implemented a robust DevSecOps pipeline integrating three security testing approaches for complete application security coverage. Created a unified Azure DevOps CI/CD solution that performs Dynamic Application Security Testing (DAST) using OWASP ZAP for runtime vulnerability detection, Static Application Security Testing (SAST) for source code analysis of Python and Node.js applications to identify issues like hardcoded credentials and insecure functions, and Software Composition Analysis (SCA) to detect vulnerable third-party dependencies with known CVEs. The pipeline automatically deploys test applications, executes all three security testing methods in sequence, and generates comprehensive reports in standardized formats published as pipeline artifacts. This implementation ensures vulnerabilities are detected early in the development lifecycle through a fully automated process, enhancing application security without manual intervention.',
-    image: '/images/wiki-dev-sec-ops-WC04-24-graphic.webp',
+    image: '../../public/images/wiki-dev-sec-ops-WC04-24-graphic.webp',
     features: [
       'Three-tier security testing (DAST, SAST, SCA)',
       'Automated Azure DevOps CI/CD pipeline',
@@ -337,7 +337,7 @@ const projects = [
     status: 'Completed',
     description: 'AWS-based content delivery platform with tiered access control using CloudFront signed URLs for premium content protection.',
     longDescription: 'Developed a secure digital content delivery platform with tiered access control using AWS cloud services. Designed and implemented an architecture that distinguishes between free and premium content through secure signed URLs. Created a user management system with secure profile image uploads via pre-signed URLs. Premium content is protected using CloudFront signed URLs with time-limited access tokens, preventing unauthorized sharing and access. Free content is delivered through optimized direct delivery paths. Implemented comprehensive security measures including access policies, time-based URL expiration, content encryption, and secure storage configurations to protect valuable digital assets.',
-    image: '/images/benefits-securing-high-value-streaming-services-1.webp',
+    image: '../../public/images/benefits-securing-high-value-streaming-services-1.webp',
     features: [
       'Tiered access control (free vs. premium content)',
       'CloudFront signed URLs for premium content protection',
@@ -376,7 +376,7 @@ const projects = [
     status: 'Completed',
     description: 'A streamlined approach to website deployment using AWS S3 infrastructure for global accessibility and scalability.',
     longDescription: 'Hosting a Website on AWS S3 offers a streamlined approach to website deployment, harnessing the power of Amazon Web Services\' robust S3 infrastructure. Simplify the process by ensuring your S3 bucket is publicly accessible, enabling global accessibility and swift content delivery worldwide. With scalable infrastructure, websites hosted on AWS S3 effortlessly adapt to fluctuating traffic demands, ensuring optimal performance at all times.',
-    image: '/images/Hosting-Static-1.jpg',
+    image: '../../public/images/Hosting-Static-1.jpg',
     features: [
       'Simplified deployment process',
       'Global content delivery with public S3 bucket',
@@ -411,7 +411,7 @@ const projects = [
     status: 'Completed',
     description: 'Advanced and secure AWS multi-VPC architecture utilizing Terraform with VPC peering and enhanced security measures.',
     longDescription: 'This project entails the creation of an advanced and secure AWS multi-VPC architecture utilizing Terraform. It includes the setup of two Virtual Private Clouds (VPCs) named Chennai and Nellore, each with distinct subnets to segregate public and private traffic. VPC peering was established to enable seamless and secure communication between the two VPCs. A NAT Gateway is deployed in the Chennai VPC to facilitate internet access for instances in private subnets, while a Bastion Host provides secure SSH access.',
-    image: '/images/What_is_a_Virtual_Private_Cloud_blog_cover_b10c66bd9c.png',
+    image: '../../public/images/What_is_a_Virtual_Private_Cloud_blog_cover_b10c66bd9c.png',
     features: [
       'Multi-VPC architecture with Terraform automation',
       'VPC peering for secure cross-VPC communication',
@@ -446,7 +446,7 @@ const projects = [
     status: 'Completed',
     description: 'Deploying scalable and highly available Nginx web servers on AWS EC2 with Auto Scaling Groups and Elastic Load Balancer.',
     longDescription: 'This project focuses on deploying a scalable and highly available Nginx web server on AWS EC2 instances. It leverages AWS Auto Scaling Groups (ASG) to ensure the deployment dynamically adjusts to traffic demands, maintaining optimal performance. An Elastic Load Balancer (ELB) is configured to distribute incoming traffic across multiple EC2 instances, enhancing fault tolerance and availability. The ASG is set with a minimum of 1 instance, desired capacity of 2 instances, and a maximum of 3 instances to balance cost and performance.',
-    image: '/images/aws-auto-scaling-group_nginx-plus-ha.png',
+    image: '../../public/images/aws-auto-scaling-group_nginx-plus-ha.png',
     features: [
       'Auto Scaling Groups for dynamic capacity adjustment',
       'Elastic Load Balancer for traffic distribution',
@@ -481,7 +481,7 @@ const projects = [
     status: 'Completed',
     description: 'IoT-enabled framework for automating and monitoring greenhouses to optimize plant growth and resource utilization.',
     longDescription: 'This project addresses the optimization challenges faced by farmers through a Smart Green House concept enabled by IoT technology. The system utilizes a network of sensors placed strategically throughout a greenhouse to collect data on plant conditions. This data is then analyzed by a Smart Green House Intelligence Decision Support System (SGHIDSS) which automatically makes decisions about water supply, nutrition levels, and other environmental factors. The automated environment ensures efficient operation of all sensors and control systems, making the greenhouse technique accessible and practical for small farms and individuals.',
-    image: '/images/MicrosoftTeams-image-129.jpg',
+    image: '../../public/images/MicrosoftTeams-image-129.jpg',
     features: [
       'IoT sensor network for real-time monitoring',
       'Automated decision support system',
@@ -516,7 +516,7 @@ const projects = [
     status: 'Completed',
     description: 'Detection of coordinated shilling attacks in online recommender systems using bisecting K-means clustering algorithm.',
     longDescription: 'This research project addresses the challenge of identifying group shilling attacks in online recommender systems, where multiple attackers collude to bias recommendations by injecting fake profiles. Unlike existing approaches that focus on individual attackers, this method detects coordinated group attacks. The solution extracts rating tracks for items, divides them into candidate groups based on time intervals, and calculates suspicious degrees using item attention degree and user activity metrics. Finally, it employs the bisecting K-means algorithm to cluster candidate groups and identify attack groups.',
-    image: '/images/hq720.jpg',
+    image: '../../public/images/hq720.jpg',
     features: [
       'Rating track extraction and analysis',
       'Time-based candidate group division',
