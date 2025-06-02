@@ -86,7 +86,7 @@
                       color="primary"
                       variant="flat"
                       prepend-icon="mdi-file-document-outline"
-                      href="../../public/Agastya Resume.docx.pdf"
+                      :href="images.resume"
                       target="_blank"
                     >
                       View Resume
@@ -96,7 +96,7 @@
                       variant="outlined"
                       class="ms-4"
                       prepend-icon="mdi-download"
-                      href="../../public/Agastya Resume.docx.pdf"
+                      :href="images.resume"
                       download
                     >
                       Download Resume
@@ -142,6 +142,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import images from '../config/images'
 
 const contactMethods = [
   {

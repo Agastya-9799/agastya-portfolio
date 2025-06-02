@@ -21,7 +21,7 @@
               <div class="about-background"></div>
               <v-avatar size="280" class="about-avatar">
                 <v-img
-                  src="../../public/images/2018.JPG"
+                  :src="images.profileLarge"
                   alt="Agastya Katamreddy - Cloud Security Engineer"
                   class="about-image"
                 ></v-img>
@@ -89,7 +89,7 @@
                 variant="flat"
                 class="me-4 mb-2"
                 elevation="2"
-                href="../../public/Agastya Resume.docx.pdf"
+                :href="images.resume"
                 download
               >
                 Download Resume
@@ -356,6 +356,8 @@
 </template>
 
 <script setup>
+import images from '../config/images'
+
 const technicalSkills = [
   { name: 'AWS Cloud Services', level: 85 },
   { name: 'DevSecOps', level: 83 },

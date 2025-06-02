@@ -86,7 +86,7 @@
               <div class="d-flex flex-column flex-md-row align-md-center">
                 <div class="me-6 text-center text-md-start mb-4 mb-md-0">
                   <img 
-                    src="../../public/images/logo2.png" 
+                    :src="images.blog.appSecLogo" 
                     alt="AppSecEngineer Logo" 
                     width="64" 
                     height="64"
@@ -121,6 +121,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import images from '../config/images'
 
 const router = useRouter()
 
@@ -131,7 +132,7 @@ const blogPosts = ref([
     slug: 'fraud-detection-timestream-neptune',
     date: 'June 15, 2024',
     category: 'AWS',
-    image: '../../public/images/blog1.png',
+    image: images.blog.fraudDetection,
     excerpt: 'Explore how combining Amazon Timestream\'s time-series capabilities with Amazon Neptune\'s graph database creates a powerful solution for detecting complex fraud patterns in financial transactions.',
   },
   {
@@ -140,7 +141,7 @@ const blogPosts = ref([
     slug: 'quantum-safe-cryptography',
     date: 'May 28, 2024',
     category: 'Security',
-    image: '../../public/images/image1-28.png',
+    image: images.blog.quantumSafe,
     excerpt: 'A deep dive into quantum-safe cryptography techniques and how organizations can prepare their infrastructure for the coming quantum computing revolution.',
   }
 ])
