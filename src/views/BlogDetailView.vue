@@ -220,7 +220,7 @@
               <h3 class="text-h6 font-weight-bold mb-4">About the Author</h3>
               <div class="d-flex align-center mb-4">
                 <img 
-                  src="/agastya-portfolio/images/logo2.png" 
+                  src="../../public/images/logo2.png" 
                   alt="AppSecEngineer Logo" 
                   width="32" 
                   height="32"
@@ -303,8 +303,8 @@ const allBlogs = {
     slug: 'fraud-detection-timestream-neptune',
     date: 'June 15, 2024',
     category: 'AWS',
-    image: '/agastya-portfolio/images/blog1.png',
-    thumbnail: '/agastya-portfolio/images/blog1.png',
+    image: './images/blog1.png',
+    thumbnail: './images/blog1.png',
     excerpt: 'Explore how combining Amazon Timestream\'s time-series capabilities with Amazon Neptune\'s graph database creates a powerful solution for detecting complex fraud patterns in financial transactions.',
     tags: ['AWS', 'Timestream', 'Neptune', 'Graph Database', 'Time Series', 'Security', 'Fraud Detection']
   },
@@ -313,8 +313,8 @@ const allBlogs = {
     slug: 'quantum-safe-cryptography',
     date: 'May 28, 2024',
     category: 'Security',
-    image: '/agastya-portfolio/images/image1-28.png',
-    thumbnail: '/agastya-portfolio/images/image1-28.png',
+    image: './images/image1-28.png',
+    thumbnail: './images/image1-28.png',
     excerpt: 'A deep dive into quantum-safe cryptography techniques and how organizations can prepare their infrastructure for the coming quantum computing revolution.',
     tags: ['Security', 'Cryptography', 'Quantum Computing', 'AWS KMS', 'NIST', 'Post-Quantum']
   }
