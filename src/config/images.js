@@ -30,10 +30,10 @@ export const images = {
   },
   
   // Resume
-  resume: "https://res.cloudinary.com/dx4rvixsa/image/upload/v1748857728/2018_gziiet.jpg", // Replace with your actual resume URL
+  resume: "https://drive.google.com/file/d/1lFifiIPhpd1kmy2lsoVFG3mpWjFLDMiN/view?usp=sharing",
   
   // Favicon
-  favicon: "https://res.cloudinary.com/dx4rvixsa/image/upload/v1748857732/logo2_y05ect.png",
+  favicon: "https://res.cloudinary.com/dx4rvixsa/image/upload/v1748857728/2018_gziiet.jpg",
 }
 
 export default images; 
