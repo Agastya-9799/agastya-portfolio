@@ -21,7 +21,7 @@
               <div class="about-background"></div>
               <v-avatar size="280" class="about-avatar">
                 <v-img
-                  src="../../public/images/2018.JPG"
+                  src="/images/2018.JPG"
                   alt="Agastya Katamreddy - Cloud Security Engineer"
                   class="about-image"
                 ></v-img>
@@ -89,7 +89,7 @@
                 variant="flat"
                 class="me-4 mb-2"
                 elevation="2"
-                href="./Agastya Resume.docx.pdf"
+                href="/Agastya Resume.docx.pdf"
                 download
               >
                 Download Resume
